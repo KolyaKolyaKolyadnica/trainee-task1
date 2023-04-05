@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9ef8959.css",
-    "main.js": "/static/js/main.031c9c44.js",
-    "static/media/startPageImg.png": "/static/media/startPageImg.6bf09d5549388d198813.png",
-    "static/media/ipdc.png": "/static/media/ipdc.e392afbdbbad1c20c05f.png",
-    "static/media/Image (1).png": "/static/media/Image (1).f9616e040a63ea6b8ec5.png",
-    "static/media/Image (4).png": "/static/media/Image (4).f4f37419b94ba07b97ba.png",
-    "static/media/Image (2).png": "/static/media/Image (2).8218f746595d32fe25a2.png",
-    "static/media/Image (3).png": "/static/media/Image (3).b1cb72666743b43f5040.png",
-    "static/media/partner-etv.png": "/static/media/partner-etv.34ff63758a78fe092e3e.png",
-    "static/media/partner-westin.png": "/static/media/partner-westin.9f03f51b31097bd79808.png",
-    "static/media/partner-summit.png": "/static/media/partner-summit.e99e95a6a88c108e5937.png",
-    "index.html": "/index.html",
-    "main.e9ef8959.css.map": "/static/css/main.e9ef8959.css.map",
-    "main.031c9c44.js.map": "/static/js/main.031c9c44.js.map"
+    "main.css": "/trainee-task1/static/css/main.73ced7c0.css",
+    "main.js": "/trainee-task1/static/js/main.91580a52.js",
+    "static/media/startPageImg.png": "/trainee-task1/static/media/startPageImg.6bf09d5549388d198813.png",
+    "static/media/ipdc.png": "/trainee-task1/static/media/ipdc.e392afbdbbad1c20c05f.png",
+    "static/media/Image (1).png": "/trainee-task1/static/media/Image (1).f9616e040a63ea6b8ec5.png",
+    "static/media/Image (4).png": "/trainee-task1/static/media/Image (4).f4f37419b94ba07b97ba.png",
+    "static/media/Image (2).png": "/trainee-task1/static/media/Image (2).8218f746595d32fe25a2.png",
+    "static/media/Image (3).png": "/trainee-task1/static/media/Image (3).b1cb72666743b43f5040.png",
+    "static/media/partner-etv.png": "/trainee-task1/static/media/partner-etv.34ff63758a78fe092e3e.png",
+    "static/media/partner-westin.png": "/trainee-task1/static/media/partner-westin.9f03f51b31097bd79808.png",
+    "static/media/partner-summit.png": "/trainee-task1/static/media/partner-summit.e99e95a6a88c108e5937.png",
+    "index.html": "/trainee-task1/index.html",
+    "main.73ced7c0.css.map": "/trainee-task1/static/css/main.73ced7c0.css.map",
+    "main.91580a52.js.map": "/trainee-task1/static/js/main.91580a52.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9ef8959.css",
-    "static/js/main.031c9c44.js"
+    "static/css/main.73ced7c0.css",
+    "static/js/main.91580a52.js"
   ]
 }
