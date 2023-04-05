@@ -1,0 +1,153 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  padding: 100px 135px 116px 135px;
+  background: #fef9fc;
+}
+
+.content {
+  width: calc(100vw - 270px);
+  min-width: 280px;
+  max-width: 1170px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  height: 43px;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+
+  text-align: center;
+
+  color: #343434;
+}
+.subtitle {
+  /* max-width: 410px; */
+  min-height: 44px;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-align: center;
+  color: #999999;
+
+  margin-top: 20px;
+}
+
+.form {
+  margin-top: 34px;
+  /* Frame 24 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 11px;
+
+  max-width: 486px;
+  /* height: 46px; */
+}
+
+.input {
+  /* Input/Default */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 15px;
+  gap: 10px;
+
+  width: 343px;
+  height: 46px;
+
+  background: #ffffff;
+  /* Black/20% */
+
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+}
+
+input::placeholder {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  /* Black/20% */
+
+  color: #cccccc;
+}
+
+.btn {
+  /* Button */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  width: 132px;
+  height: 46px;
+
+  /* Primary/100% */
+
+  background: #ed017f;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media (max-width: 740px) {
+  .form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .input {
+    max-width: 343px;
+    width: 100%;
+  }
+}

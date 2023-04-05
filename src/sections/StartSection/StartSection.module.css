@@ -1,0 +1,56 @@
+.container {
+  position: relative;
+  height: 772px;
+  width: calc(100vw - 270px);
+  max-width: 1170px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 27px 135px 54px 135px;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  width: calc(100vw - 270px);
+  max-width: 1170px;
+  padding-top: 142px;
+  position: relative;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  width: 265px;
+  height: 24px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.verticalLine {
+  /* Line 1 */
+
+  width: 0px;
+  height: 24px;
+
+  /* Black/20% */
+
+  border: 1px solid #cccccc;
+  /* transform: rotate(90deg); */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}

@@ -1,0 +1,175 @@
+.container {
+  /* Frame 1 */
+
+  /* height: 842px; */
+  width: 100%;
+
+  background: #fef9fc;
+
+  /*custom*/
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 106px 135px 130px 135px;
+}
+
+.content {
+  width: calc(100vw - 270px);
+  max-width: 1170px;
+}
+
+.title {
+  /* Menu */
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height, or 119% */
+
+  text-align: center;
+
+  /* Black/80% */
+
+  color: #343434;
+}
+.subtitle {
+  /* Subtitle */
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  text-align: center;
+
+  /* Black/40% */
+
+  color: #999999;
+
+  /*custom*/
+  margin-top: 20px;
+}
+.list {
+  /* Frame 20 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px;
+  gap: 50px;
+
+  /* width: 1166px; */
+
+  width: calc(100vw - 270px);
+  max-width: 1170px;
+  min-height: 457px;
+
+  /*custom*/
+  margin-top: 64px;
+}
+.listItem {
+  /* Product */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 22px;
+
+  width: 254px;
+  height: 457px;
+
+  border-radius: 9px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.image {
+  /* Image */
+
+  width: 254px;
+  height: 365px;
+
+  /* background: url(.jpg); */
+
+  border-radius: 9px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.info {
+  /* Frame 21 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 22px;
+
+  width: 254px;
+  height: 70px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.infoTitle {
+  /* iPhone 11 Pro Max Copy */
+
+  width: 195px;
+  height: 70px;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 35px;
+  /* or 167% */
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* Text */
+
+  color: #363940;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+
+  /*custom*/
+  text-align: start;
+}
+
+@media (max-width: 830px) {
+  .list {
+    justify-content: center;
+  }
+}

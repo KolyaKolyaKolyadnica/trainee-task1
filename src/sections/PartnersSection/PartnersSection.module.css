@@ -1,0 +1,149 @@
+.container {
+  width: 100%;
+
+  /* min-height: 449px; */
+
+  background: rgba(252, 224, 239, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 78px 135px 69px 135px;
+}
+
+.title {
+  /* BUSINESS PARTNERS */
+
+  width: 278px;
+  height: 23px;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 23px;
+  /* identical to box height */
+
+  letter-spacing: 2.1px;
+
+  /* Black/80% */
+
+  color: #343434;
+}
+.list {
+  margin-top: 88px;
+  /* Frame 16 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  gap: 67px;
+
+  /* max-width: 1170px;
+  width: 100%; */
+
+  width: calc(100vw - 270px);
+  max-width: 1170px;
+}
+.listItem {
+}
+.imgContainer {
+}
+.image {
+}
+
+.pagination {
+  margin-top: 70.14px;
+  /* Frame 6 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 21px;
+
+  width: 91px;
+  height: 13px;
+}
+.curPage {
+  /* Ellipse 1 */
+
+  width: 13px;
+  height: 13px;
+
+  /* Primary/60% */
+
+  background: #f467b2;
+  /* Normal */
+
+  box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  border-radius: 50%;
+}
+.page {
+  /* Ellipse 2 */
+
+  width: 8px;
+  height: 8px;
+
+  /* Black/20% */
+
+  background: #cccccc;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  border-radius: 50%;
+}
+
+/* Swiper lib */
+
+.swiper {
+  /* width: 100%; */
+
+  width: calc(100vw - 270px);
+  max-width: 1170px;
+  height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 830px) {
+  .list {
+    justify-content: center;
+  }
+}

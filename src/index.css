@@ -1,13 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background: #ed017f;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.02);
+  transition: all 0.2s;
+}
+a {
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  /* width: 100%; */
+
+  width: calc(100vw - 270px);
+  max-width: 1170px;
+  height: 300px;
+
+  border: 1px solid #000;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid #e71111;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  border: 1px solid #000;
+}
+.swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+  opacity: none !important;
+  background-color: #cccccc !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #f467b2;
+  /* background-color: #f467b2 !important; */
+
+  width: 13px !important;
+  height: 13px !important;
 }

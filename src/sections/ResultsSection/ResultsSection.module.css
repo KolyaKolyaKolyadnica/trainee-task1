@@ -1,0 +1,159 @@
+.container {
+  width: calc(100vw - 270px);
+  max-width: 1170px;
+
+  padding: 106px 135px 108px 135px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  /* Our best results for */
+
+  min-height: 43px;
+
+  /* Menu */
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height, or 119% */
+
+  text-align: center;
+
+  /* Black/80% */
+
+  color: #343434;
+}
+.subtitle {
+  /* Failure will never o */
+
+  min-height: 44px;
+
+  /* Subtitle */
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+  text-align: center;
+
+  /* Black/40% */
+
+  color: #999999;
+
+  /* custom */
+  margin-top: 20px;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 55px 126px;
+
+  /* width: 1170px; */
+  width: 100%;
+  /* height: 257px; */
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+
+  /* custom */
+  flex-wrap: wrap;
+  margin-top: 84px;
+}
+.result {
+  /* Column */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 172px;
+  /* height: 101px; */
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+
+  /* custom */
+  text-align: start;
+}
+
+.record {
+  /* 9 000 000 */
+
+  width: 172px;
+
+  /* Values */
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 43px;
+  /* identical to box height, or 108% */
+
+  /* Black/80% */
+
+  color: #343434;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.achievement {
+  /* Learn To Love */
+
+  width: 172px;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  /* identical to box height, or 156% */
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* Black/60% */
+
+  color: #676767;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.result:nth-child(1) > .record:nth-child(1) {
+  color: #ed017f;
+  height: 43px;
+}
+
+@media (max-width: 740px) {
+  .results {
+    justify-content: center;
+  }
+}

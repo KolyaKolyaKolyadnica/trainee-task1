@@ -1,0 +1,146 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 75px 72.5px 135px;
+  /* width: 100%; */
+
+  width: calc(100vw - 270px);
+  max-width: 1170px;
+}
+
+.title {
+  /* Your choice */
+  /* height: 43px; */
+
+  /* Menu */
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height, or 119% */
+
+  text-align: center;
+
+  /* Black/80% */
+
+  color: #343434;
+}
+.subTitle {
+  margin-top: 20px;
+  /* There are many reaso */
+  max-width: 660px;
+  height: 44px;
+
+  /* Subtitle */
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+  text-align: center;
+
+  /* Black/40% */
+
+  color: #999999;
+}
+
+.list {
+  margin-top: 76px;
+  /* Frame 27 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2.5px 39px;
+
+  max-width: 1230px;
+  width: 100%;
+  /* height: 231px; */
+
+  flex-wrap: wrap;
+}
+.listItem {
+  /* Feature */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 18px;
+
+  /* width: 259px; */
+  width: 211px;
+  /* height: 231px; */
+
+  box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+}
+.svgContainer {
+}
+.cardTitle {
+  /* The first */
+
+  /* width: 142px; */
+  height: 22px;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  /* identical to box height, or 100% */
+
+  /* Text */
+
+  color: #363940;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+}
+.cardSubtitle {
+  /* Microsoft Patch Mana */
+
+  width: 160px;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  /* Black/40% */
+
+  color: #999999;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+}
+
+@media (max-width: 830px) {
+  .list {
+    justify-content: center;
+  }
+}

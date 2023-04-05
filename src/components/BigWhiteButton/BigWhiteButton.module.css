@@ -1,0 +1,97 @@
+.car {
+  /* Frame 3 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 27px;
+  gap: 19px;
+
+  position: absolute;
+  width: 191.65px;
+  height: 71px;
+  left: -71px;
+  top: 144px;
+
+  /* White */
+
+  background: #ffffff;
+  box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
+  border-radius: 55px;
+}
+
+.home {
+  /* Frame 2 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 27px;
+  gap: 19px;
+
+  position: absolute;
+  width: 204.65px;
+  height: 71px;
+  left: 447px;
+  top: 256px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Normal */
+
+  box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
+  border-radius: 56px;
+}
+
+.svgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* car  */
+
+  width: 30.65px;
+  height: 30.65px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.text {
+  /* The first */
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+
+  /* Black/80% */
+
+  color: #343434;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+@media (max-width: 830px) {
+  .car {
+    left: calc(5vw + 150px);
+    top: 144px;
+  }
+  .home {
+    left: 447px;
+    top: 144px;
+  }
+}

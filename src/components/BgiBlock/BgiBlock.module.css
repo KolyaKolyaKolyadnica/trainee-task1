@@ -1,0 +1,98 @@
+.container {
+  position: absolute;
+  width: 710px;
+  height: 682px;
+  right: 0px;
+  top: 0px;
+
+  background: #ffeaf5;
+}
+.img {
+  position: absolute;
+  width: 905px;
+  height: 654px;
+  left: -172px;
+  top: 114px;
+
+  background: url("../../images/startPageImg.png");
+}
+
+.pagination {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 21px;
+
+  position: absolute;
+  width: 13px;
+  height: 91px;
+  left: 652px;
+  top: 457px;
+}
+.curPage {
+  border-radius: 50%;
+  /* Ellipse 1 */
+
+  width: 13px;
+  height: 13px;
+
+  /* Primary/60% */
+
+  background: #f467b2;
+  /* Normal */
+
+  box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.page {
+  border-radius: 50%;
+  /* Ellipse 2 */
+
+  width: 8px;
+  height: 8px;
+
+  /* Black/20% */
+
+  background: #cccccc;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.curPage:hover {
+  cursor: pointer;
+}
+.page:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1240px) {
+  .img {
+    left: calc(10vw - 172px);
+  }
+}
+@media (max-width: 1050px) {
+  .img {
+    left: calc(25vw - 172px);
+  }
+}
+@media (max-width: 920px) {
+  .img {
+    left: calc(40vw - 172px);
+  }
+}
+@media (max-width: 830px) {
+  .img {
+    transform: scale(0.5);
+    top: 244px;
+  }
+}

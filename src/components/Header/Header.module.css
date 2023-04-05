@@ -1,0 +1,102 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 855px;
+  max-width: 1170px;
+  z-index: 2;
+}
+
+.logo {
+  width: 109px;
+  height: 53px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+
+  max-width: 823px;
+  height: 24px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 26px;
+
+  height: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+}
+.listItem {
+  /* width: 52px; */
+  height: 20px;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  /* Black/100% */
+
+  color: #010101;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+}
+.svgContainer {
+  width: 21px;
+  height: 21px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+
+  width: 108px;
+  height: 36px;
+
+  background: #ed017f;
+  border-radius: 4px;
+}
+.btnText {
+  width: 68px;
+  height: 20px;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+}

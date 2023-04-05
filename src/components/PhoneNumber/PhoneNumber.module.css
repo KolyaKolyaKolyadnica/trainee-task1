@@ -1,0 +1,64 @@
+.phone {
+  /* Frame 22 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 11px;
+
+  width: 85px;
+  height: 24px;
+
+  border-radius: 15px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.svgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* call  */
+
+  width: 24px;
+  height: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.phoneNumber {
+  /* 16519 */
+
+  width: 50px;
+  height: 22px;
+
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  /* identical to box height, or 129% */
+
+  text-align: center;
+  letter-spacing: 1px;
+
+  /* Black/100% */
+
+  color: #010101;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
